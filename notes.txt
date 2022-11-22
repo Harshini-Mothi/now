@@ -1,0 +1,138 @@
+class Demo
+{
+public static void main(String args[])
+{
+System.out.println("Hi students"); //sysyem - class, out - reference variable
+}
+}
+
+class Demo{
+	public static void main(String args[]){
+		int num;
+		Scanner sc=new Scanner(System.in); //scanner is a class which is already present
+		num=sc.nextInt();
+		System.out.println(num);
+
+}
+}
+
+#For float
+float=10.25f
+Scanner=sc.nextFloat();
+System.out.println(num);
+#For string(next n nextLine r used)
+String name;
+Scanner sc=new Scanner(Syatem.in);
+name=sc.nextLine();
+Syatem.out.println(name);
+//nextLine is used to print a line or else we can just use next
+#For charater
+char name;
+Scanner sc=next().charAt(<index_number>);
+System.out.println(name);
+
+12/10/22
+#replacing java with pyhton
+str.replaced(0,4,"Python");
+System.out.println(str);
+#to reverse the string
+str.reverse();
+System.out.println(str);
+#to find length
+str.setLength(5);
+System.out.println(str);
+#concepts
+#string builder and string buffer
+#String Builder:
+StringBuilder str = new StringBuilder("Java");
+System.out.println(str);
+str.append(:Python");
+system.out.println(str);
+
+13/10/22
+-------------------------------------------------------------
+package firstproject;
+
+public class Demo {
+	
+	public static void main(String[] args) {
+		
+		int id;
+		String Name;
+		Students(int id,String Name)
+		{
+			this.id=id;     //indicating insatance variable by using this.
+			this.Name=Name;
+		}
+		void display()
+		{
+			System.out.println(id+"  "+Name);
+		}
+		void feedBack() {
+			this.display();
+			System.out.println("Class is boring???");
+		}
+		public static void main(String[] args) {
+			Students s3=new students();
+			s3.feedBack();
+		}
+	}
+	
+
+}
+------------------------------------------------------------
+#Blocks 2 types(Blocks are used to initialize the variables)
+>Static block - to activate static variable
+>Non-static block - to intialize instance variable
+
+class students
+{
+//static variable
+static String name;
+//satatic block
+static{
+name="Sachin";
+System.out.println(name);
+}
+public static void main(String[] args)
+{
+Students s=new Students();
+}
+
+14/10/22
+______INHERITANCE______
+> Inherting properties from from parent class(class from which properties are inherited)(/base class/super class) to child class(class to which properties are inherited)(/derived class/sub class)
+> class subclass_name extends super_class_name {
+ // methods and fields
+}
+> Types of inheritance supported by java
+ Single, mjultilevel and hierarchical
+> Sub class exetnds one more class again that subclass extends anothier super class - MULTILEVEL INHERITACE
+
+
+class Parent
+{
+	String name="Parents_name";
+}
+class Child extends Parent
+{
+	String address"TamilNadu";
+}
+public class Main
+{
+	public static void main(String[] args)
+
+17/10/22
+If a class is having abstract the class ias called as abstract class
+
+
+//abstraction
+//abstract key word
+class shape
+
+
+
+
+
+
+
